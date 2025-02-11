@@ -9,9 +9,9 @@ Questo progetto utilizza OpenCV, dlib e face_recognition per rilevare i volti e 
 Prima di eseguire il codice, assicurati di avere installati i seguenti pacchetti e strumenti:
 
 ### 0. Installare il sistema python compatibile con il proprio OS e averlo aggiornato alla ultima versione (3.10 al tempo della creazione dello script)
-Richiede anche i seguenti pacchetti/librerie: build-essential, cmake, libgtk-3-dev, liblapack-dev, libx11-dev, python3-dev.
-Installabili con un solo comando: sudo apt install build-essential cmake libgtk-3-dev liblapack-dev libx11-dev python3-dev
-Installare anche il pacchetto pip: sudo apt install python3-pip
+Richiede anche i seguenti pacchetti/librerie: build-essential, cmake, libgtk-3-dev, liblapack-dev, libx11-dev, python3-dev .
+Installabili con un solo comando: sudo apt install build-essential cmake libgtk-3-dev liblapack-dev libx11-dev python3-dev .
+Installare anche il pacchetto pip: sudo apt install python3-pip .
 
 ### 1. Installare i pacchetti necessari
 Il codice utilizza le seguenti librerie Python: opencv-python, dlib, face-recognition, numpy.
