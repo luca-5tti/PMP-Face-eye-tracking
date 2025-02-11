@@ -21,6 +21,7 @@ Si possono installare con il seguente comando: pip install opencv-python dlib fa
 ### 2. File dei landmark facciali
 Il codice richiede il file `shape_predictor_68_face_landmarks.dat`, necessario per il rilevamento dei punti di riferimento facciali.
 Il file è scaricabile da: (http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2). Dopo averlo scaricato, va estratto e si consiglia di posizionarlo nella stessa directory del tuo script (qualora si preferisce averlo da altre parti, bisogna modificare lo script python aggiustando il percoso).
+N.B.: il download può essere bloccato da alcuni browser perchè riconosciuto come potenzialmente malevolo. Controllare la sezione download.
 
 Si può anche scaricare da terminale col seguente comando: wget http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
 Ed estrarlo con: bzip2 -d shape_predictor_68_face_landmarks.dat.bz2
